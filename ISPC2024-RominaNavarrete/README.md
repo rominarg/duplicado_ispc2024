@@ -15,21 +15,3 @@ El portal ofrecerá a los usuarios la posibilidad de explorar destinos turístic
 
 El objetivo principal del proyecto es ofrecer a los usuarios una experiencia de compra de viajes turísticos fácil, intuitiva y segura, brindándoles la oportunidad de descubrir y explorar los encantos del país desde la comodidad de su hogar y facilitando la planificación de sus próximas vacaciones.
 
-## Integrantes:
-
-Cantarino, Emmanuel  
-Cascallares, Facundo  
-De Elejalde, Franco Agustín Trivini  
-Fernandez, Claudio Ranses  
-González, Natalia  
-Navarrete, Romina Gabriela  
-Oro, Elias  
-Ortiz, Fernando Ariel  
-Ramos, Fernando  
-Soto Valenzuela, Juan Gabriel  
-
-Link del Repositorio de Referencia (Anterior):
-https://github.com/AnahiNicoli/FullStack_ISPC/
-
-Link al Wiki general del proyecto Travel Dreams:
-https://github.com/TravelDreams2024/ISPC2024/wiki
