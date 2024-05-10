@@ -1,19 +1,21 @@
 .carousel-caption h1 {
     font-weight: bold;
     color: #240B5C;
+    padding-top: 100px;
 }
 
 .btn-slider {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .btn-slider .btn {
     margin: 0 10px; 
-    border-color: #240B5C;
-    color: #ffffff;;
+    /* border-color: #240B5C; */
+    color: #ffffff;
     border-width: 2px;
+    font-weight: bold;
 }
 
 .btn-slider .btn:hover {
@@ -22,11 +24,9 @@
     color: #ffffff; 
 }
 
-
 .slider2 h1 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
   color: white; 
+  font-weight: bold;
 }
 
 .slider2 p {
@@ -37,6 +37,7 @@
 
 .slider3 h2 {
   font-weight: bold;
+  color: white;
 }
 
 .cont_slider {

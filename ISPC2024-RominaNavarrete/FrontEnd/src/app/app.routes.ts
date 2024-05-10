@@ -13,8 +13,6 @@ import { BannerComponent } from './pages/banner/banner.component';
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     {path: "Home", component:HomeComponent},
-    {path: "Home", component:BannerComponent},
-    {path: "Home", component: DestinosComponent},
     {path: "Inicio", component:HomeComponent},
     {path:"destinos", component: DestinosComponent},
     {path:"contacto", component: ContactoComponent},
