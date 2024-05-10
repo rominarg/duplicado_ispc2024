@@ -7,3 +7,6 @@
     flex: 1 1 auto; 
   }
 
+  .container-fluid .row + .row {
+    margin-top: 20px; 
+}

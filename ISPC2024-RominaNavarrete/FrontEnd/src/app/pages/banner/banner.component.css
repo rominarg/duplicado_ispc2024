@@ -12,14 +12,31 @@
 .btn-slider .btn {
     margin: 0 10px; 
     border-color: #240B5C;
-    color: #240B5C;;
+    color: #ffffff;;
     border-width: 2px;
 }
 
 .btn-slider .btn:hover {
-    background-color: #240B5C; /* Color de fondo al pasar el mouse */
-    border-color: #240B5C; /* Color del borde al pasar el mouse */
-    color: #ffffff; /* Color del texto al pasar el mouse */
+    background-color: #240B5C; 
+    border-color: #240B5C; 
+    color: #ffffff; 
+}
+
+
+.slider2 h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: white; 
+}
+
+.slider2 p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+.slider3 h2 {
+  font-weight: bold;
 }
 
 .cont_slider {
