@@ -1,5 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
-;
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pagina404',
@@ -8,12 +7,6 @@ import { Component, OnInit, ElementRef } from '@angular/core';
   templateUrl: './pagina404.component.html',
   styleUrl: './pagina404.component.css'
 })
-
-export class Pagina404Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class Pagina404Component {
 
 }

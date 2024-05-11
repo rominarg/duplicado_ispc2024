@@ -1,18 +1,12 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
     font-family: "vazir", sans-serif;
-    background: var(--P_color6);
+    background: #D32788!important;
     color: rgba(255, 255, 255, 0.8);
     overflow: hidden !important;
 }
@@ -26,10 +20,12 @@ a {
     padding: .8rem;
     margin: .3rem;
     width: 500px;
+    font-weight: bold;
 }
 
 .texts h4 {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .Square404 {
@@ -38,6 +34,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 50%;
+    font-weight: bold;
 }
 
 .Square {
@@ -45,12 +42,12 @@ a {
     height: 20vw;
     position: absolute;
     border-radius: 1.2rem;
-    background: var(--P_color1);
-    box-shadow: var(--P_color2) 0 0 5px 30px,
-    var(--P_color3) 0 0 10px 60px,
-    var(--P_color4) 0 0 15px 90px,
-    var(--P_color5) 0 0 20px 120px,
-    var(--P_color6) 0 0 25px 150px;
+    background: #C2146D!important;
+    box-shadow: #760D50 0 0 5px 30px,
+                #4D0E45 0 0 10px 60px,
+                #320C3B 0 0 15px 90px,
+                #280C3D 0 0 20px 120px,
+                #1E0D37 0 0 25px 150px;
     transform: rotateZ(-21deg);
     display: flex;
     justify-content: center;
