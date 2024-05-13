@@ -1,1 +1,72 @@
-<p>iniciar-sesion works!</p>
+<section class="d-flex align-items-center justify-content-center" style="min-height: 100vh; background-color: hsl(0, 0%, 96%)">
+    <!-- Jumbotron -->
+    <div class="container text-center text-lg-start">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body py-5 px-md-5">
+                        <h1 class="fw-bolder center">INICIAR SESIÓN</h1>
+                            <form [formGroup]="loginForm">
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input formControlName="email" type="email" id="form3Example3" class="form-control" />
+
+                                    <div *ngIf="email.invalid && (email.dirty || email.touched)"
+                                    class="alert text-danger">
+                                
+                                        <div *ngIf="email.errors?.['required']">
+                                            El correo es requerido.
+                                        </div>
+                                        <div *ngIf="email.errors?.['email']">
+                                            El correo debe tener un formato válido.
+                                        </div>
+                                    </div>                                    
+
+                                    <label class="form-label" for="form3Example3">Correo Electrónico</label>
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <input formControlName="password" type="password" id="form3Example4" class="form-control" />
+
+                                    <div *ngIf="password.invalid && (password.dirty || password.touched)"
+                                    class="alert text-danger">
+                                
+                                        <div *ngIf="password.errors?.['required']">
+                                            La contraseña es requerida.
+                                        </div>
+                                        <div *ngIf="password.errors?.['minlength']">
+                                            La contraseña debe tener mínimo 5 caracteres.
+                                        </div>
+                                    </div> 
+
+                                    <label class="form-label" for="form3Example4">Contraseña</label>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check d-flex justify-content-center mb-4">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33"
+                                        checked />
+                                    <label class="form-check-label" for="form2Example33">
+                                        Recuerdame
+                                    </label>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" (click)="login()" class="btn btn-success btn-block mb-4 text-center">
+                                    Iniciar Sesión
+                                </button>
+                                <div class="mb-4 text-black text-opacity-50">¿No estás registrado aún?</div>
+                                <button type=" submit" class="btn btn-success btn-block mb-4" routerLink="/registro">
+                                    Registrarse
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Jumbotron -->
+</section>
+

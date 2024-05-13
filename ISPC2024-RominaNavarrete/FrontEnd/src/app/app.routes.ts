@@ -17,7 +17,7 @@ export const routes: Routes = [
     {path:"destinos", component: DestinosComponent},
     {path:"contacto", component: ContactoComponent},
     {path:"nosotros", component: NosotrosComponent},
-    {path:"nosotros/:id", component:ProfesionalComponent},
+    {path:"nosotros/:id", component:ProfesionalComponent}, 
     {path:"iniciar-sesion", component:IniciarSesionComponent},
     {path:"registro", component:RegistroComponent},
     {path:"dashboard", component:DashboardComponent},
