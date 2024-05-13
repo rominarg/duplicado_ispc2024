@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-destinosdetails',
   standalone: true,
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './destinosdetails.component.html',
   styleUrl: './destinosdetails.component.css'
 })
-export class DestinosdetailsComponent {
+export class  DestinosdetailsComponent {
 
 }

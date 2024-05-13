@@ -8,6 +8,7 @@ import { RegistroComponent } from './pages/auth/registro/registro.component';
 import { Pagina404Component } from './pages/pagina404/pagina404.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ProfesionalComponent } from './pages/nosotros/profesional/profesional.component';
+import { DestinosdetailsComponent } from './pages/destinos/destinosdetails/destinosdetails.component';
 
 
 export const routes: Routes = [
@@ -15,11 +16,12 @@ export const routes: Routes = [
     {path: "Home", component:HomeComponent},
     {path: "Inicio", component:HomeComponent},
     {path:"destinos", component: DestinosComponent},
+    {path:"destinos/:id", component: DestinosdetailsComponent},
     {path:"contacto", component: ContactoComponent},
     {path:"nosotros", component: NosotrosComponent},
     {path:"nosotros/:id", component:ProfesionalComponent}, 
     {path:"iniciar-sesion", component:IniciarSesionComponent},
     {path:"registro", component:RegistroComponent},
-    {path:"dashboard", component:DashboardComponent},
+    // {path:"dashboard", component:DashboardComponent},
     {path: '**', component: Pagina404Component},
 ];

@@ -1,0 +1,87 @@
+{
+    "productos": [
+        {
+            "id":1,
+            "titulo": "Bariloche",
+            "descripcion": "sdf kooirems",
+            "precio": 120,
+            "image": "https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png"
+        },
+        {
+            "id":2,
+            "titulo": "Villa Carlos Paz",
+            "descripcion": "dsdgfsdfs",
+            "precio": 452,
+            "image": "https://bariloche.org/wp-content/uploads/2020/01/bariloche-barilocheorg-verano2021-fotofranciscoraggio-fotobarilocheorg-patagonia-argentina-lagonahuelhuapi-cartelbariloche.jpg"
+        },
+        {
+            "id":3,
+            "titulo": "Mar del Plata",
+            "descripcion": "sdsdg kooirems",
+            "precio": 6896,
+            "image": "https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png"
+        },
+        {
+            "id":4,
+            "titulo": "Necochea",
+            "descripcion": "dsfsakasdsa",
+            "precio": 978,
+            "image": "https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png"
+        },
+        {
+            "id":5,
+            "titulo": "Brasil",
+            "descripcion": "ggtrcv",
+            "precio": 744,
+            "image": "https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png"
+        }
+    ],
+
+    "carrito":[ 
+      {
+        "id":1,
+        "titulo": "Bariloche 7 Noches",
+        "genero":" Folclore",
+        "funcion":" 7 de julio",
+        "imagen":"https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png",
+        "subtotal": 4500,
+        "descuento": 350
+      },
+      {
+        "id":2,
+        "titulo": "Villa Carlos Paz 7 Noches",
+        "genero":" Parodia musical",
+        "funcion":" 20 de agosto",
+        "imagen":"https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png",
+        "subtotal": 5500,
+        "descuento": 0
+      },
+      {
+        "id":3,
+        "titulo": "Camboriu 5 noches",
+        "genero":" Cuarteto",
+        "funcion":" 23 de julio",
+        "imagen":"https://contrarianlink.my.canva.site/link-f2-sitio-web/images/9a3894711a5c7710ffe75af70825c817.png",
+        "subtotal": 5000,
+        "descuento": 0
+      },
+      {
+        "id":4,
+        "titulo": "Necochea",
+        "genero":" Humor",
+        "funcion":" 28 de mayo",
+        "imagen":"https://teatromercedessosa.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-29-at-12.11.04-1024x811.jpeg",
+        "subtotal": 4000,
+        "descuento": 500
+      },
+      {
+        "id":5,
+        "titulo": "Monte Hermoso",
+        "genero":" Musical",
+        "funcion":" 23 de junio",
+        "imagen":"https://teatromercedessosa.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-04-17-at-10.02.52-1024x811.jpeg",
+        "subtotal": 4500,
+        "descuento": 700
+      }
+    ]
+  }
