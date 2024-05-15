@@ -15,4 +15,5 @@ a uno para que puedan seleccionar los paquetes que mejor se adapten a sus prefer
 ## Objetivo del Proyecto:
 
 El objetivo principal del proyecto es ofrecer a los usuarios una experiencia de compra de viajes turísticos fácil, intuitiva y segura, brindándoles la oportunidad de descubrir y explorar los encantos del país desde la comodidad de su hogar y facilitando la planificación de sus próximas vacaciones.
+![ISPC_frontend_Angular17](https://github.com/rominarg/duplicado_ispc2024/assets/45200064/7e89035e-2b16-477f-9565-e0aa5e856451)
 
