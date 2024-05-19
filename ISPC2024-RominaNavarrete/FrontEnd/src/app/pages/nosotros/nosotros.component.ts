@@ -10,7 +10,6 @@ import { RouterLink } from '@angular/router';
   styleUrl: './nosotros.component.css'
 })
 export class NosotrosComponent {
-  // Datos de ejemplo para enlazar
   empresa = 'Travel Dreams';
   mision = 'Desde hace 20 años, Travel Dreams ha sido la brújula que guía a aventureros de todas las edades en sus viajes más esperados. Nuestra misión trasciende un simple itinerario; es una promesa de aventura, descubrimiento y recuerdos que perduran toda la vida.';
   equipo = [
@@ -18,64 +17,65 @@ export class NosotrosComponent {
       nombre: 'Cantarino, Emmanuel',
       rol: 'Full Stack',
       imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      github: '#',
       linkedin: '#',
       perfil: '/nosotros/1'
+    },
+    {
+      nombre: 'Cascallares, Facundo',
+      rol: 'Full Stack',
+      imagen: 'assets/img/A02_avatar_hombre.png',
+      github: '#',
+      linkedin: '#',
+      perfil: '/nosotros/2'
     },
     {
       nombre: 'Fernandez, Claudio Ranses',
       rol: 'Full Stack',
       imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
-      linkedin: '#',
-      perfil: '/nosotros/2'
-    },
-    {
-      nombre: 'Cantarino, Emmanuel',
-      rol: 'Full Stack',
-      imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      github: '#',
       linkedin: '#',
       perfil: '/nosotros/3'
     },
     {
-      nombre: 'Cantarino, Emmanuel',
+      nombre: 'González, Natalia',
       rol: 'Full Stack',
-      imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      imagen: 'assets/img/A01_avatar_mujer.png',
+      github: '#',
       linkedin: '#',
       perfil: '/nosotros/4'
     },
     {
-      nombre: 'Cantarino, Emmanuel',
+      nombre: 'Navarrete, Romina Gabriela',
       rol: 'Full Stack',
-      imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      imagen: 'assets/img/A01_avatar_mujer.png',
+      github: '#',
       linkedin: '#',
-      perfil: '/nosotros/1'
+      perfil: '/nosotros/5'
     },
     {
-      nombre: 'Cantarino, Emmanuel',
+      nombre: 'Oro, Elias',
       rol: 'Full Stack',
       imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      github: '#',
       linkedin: '#',
-      perfil: '/nosotros/1'
+      perfil: '/nosotros/6'
     },
     {
-      nombre: 'Cantarino, Emmanuel',
+      nombre: 'Ortiz, Fernando Ariel',
       rol: 'Full Stack',
       imagen: 'assets/img/A02_avatar_hombre.png',
-      twitter: '#',
-      facebook: '#',
+      github: '#',
       linkedin: '#',
-      perfil: '/nosotros/1'
+      perfil: '/nosotros/7'
+    },
+    {
+      nombre: 'Soto Valenzuela, Juan Gabriel',
+      rol: 'Full Stack',
+      imagen: 'assets/img/A02_avatar_hombre.png',
+      github: '#',
+      linkedin: '#',
+      perfil: '/nosotros/8'
     },
   ];
 }

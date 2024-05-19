@@ -1,27 +1,11 @@
-<div class="pd-wrap">
-    <div class="container">
-      <div class="heading-section">
-        <h2>Product Details</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Carousel para las imágenes del producto -->
-          <div id="slider" class="owl-carousel product-slider">
-            <!-- <div class="item" *ngFor="let image of productImages"> -->
-              <!-- <img [src]="image" /> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <!-- Detalles del producto -->
-          <div class="product-dtl">
-            <div class="product-info">
-              <div class="product-name">Variable Product</div>
-              <!-- Componente para las valoraciones -->
-              <!-- <app-ratings></app-ratings> -->
-            </div>
-          </div>
-        </div>
-      </div>
+<!-- <div *ngFor="let destination of imagenList; let i = index">
+    <div (click)="onSelectDestination(i)"> -->
+      <!-- Renderiza la lista de destinos -->
+      <!-- <img [src]="destination.url" alt="{{ destination.name }}" />
+      <h2>{{ destination.name }}</h2>
+      <p>{{ destination.description }}</p>
     </div>
-  <!-- </div> -->
+  </div> -->
+  
+  <!-- Renderiza DestinosdetailsComponent con el id seleccionado -->
+  <!-- <app-destinosdetails *ngIf="selectedDestinationId !== null" [id]="selectedDestinationId"></app-destinosdetails> -->
